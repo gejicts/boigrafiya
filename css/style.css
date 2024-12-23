@@ -1315,5 +1315,11 @@ input {
         margin-bottom: -350px;
     }
 
+	.contanier-info div {
+        display: flex;
+        bottom: 100px;
+        position: relative;
+    }
+
 }
 
