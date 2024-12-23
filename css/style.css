@@ -11,12 +11,12 @@
 body {
     margin: 0;
     background-color: #F3F3EE;
+    font-family: 'Manrope'; 
 }
 
-
 .contanier-task {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 0 200px;
+
 }
 
 .contanier-task-flex {
@@ -36,7 +36,6 @@ body {
 
 .contanier-task-flex >div>p {
     font-size: 28px;
-    font-family: 'Manrope'; 
     font-weight: 500;
     color: #40464D;
     width: auto;
@@ -49,10 +48,7 @@ body {
 }
 
 .about-us {
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 250px;
-    padding-bottom: 50px;
+    padding:250px 200px 50px 200px;
     text-align: center;
     position: relative;
 }
@@ -81,20 +77,17 @@ body {
     
     }
     
-    .image-container {
+.image-container {
     flex: 1; 
     padding: 10px;
     
     }
     
-    .image-container img {
+.image-container img {
     display: block;
     width: 100%;
     height: auto;
     }
-
-
-
 
 .contanier-ui {
     padding-left: 200px;
@@ -117,19 +110,15 @@ body {
     width: 100%;
 }
 
-
 .img-elements {
     width: 100%;
 }
-
 
 .contanier-location {
     background-image: url("../img/fon2.png");
     background-size: 100%;
 	background-repeat: no-repeat;
-    padding-top: 620px;
-    padding-right: 200px;
-    padding-left: 200px;
+    padding:620px 200px 0px 200px;
     position: relative;
 }
 
@@ -144,15 +133,11 @@ body {
 }
 
 .layouts {
-    padding-right: 200px;
-    padding-left: 200px;
-    padding-top: 200px;
-    padding-bottom: 100px;
+    padding:200px 200px 100px 200px;
 }
 
 .layouts > h2 {
     color: #554534;
-    font-family: 'Manrope'; 
     font-weight: 700;
     font-size: 20px;
     letter-spacing: 10px;
@@ -188,13 +173,13 @@ body {
 }
 
 .btn {
+    font-family: 'Manrope';
     background-color: #F5574E;
     width: 240px;
     height: 61px;
     border: none;
     color: white;
     font-size: 18px;
-    font-family: 'Manrope'; 
     font-weight: 800;
     margin-top: 50px;
 }
@@ -204,8 +189,7 @@ body {
     justify-content: space-between;
 }
 
-.share-h3 {
-    font-family: 'Manrope'; 
+.share-h3 { 
     font-size: 24px;
     color: #40464D;
     text-align: left;
@@ -216,10 +200,7 @@ body {
 .estate {
     position: relative;
     background-color: #554534;
-    padding-right: 200px;
-    padding-left: 200px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 200px 100px 200px;
 }
 
 .estate > h2 {
@@ -269,7 +250,6 @@ body {
 }
 
 .pros div h2 {
-    font-family: 'Manrope'; 
     font-size: 20px;
     color: #FFFFFF;
     font-weight: 600;
@@ -282,14 +262,8 @@ body {
     gap: 50px;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 30px;
-    padding-top: 40px;
+    padding:40px 0px 30px 0px;
 }
-
-.img-photos {
-    max-width: 997px;
-    }
-
 
 .floors>div {
     height:180px;
@@ -305,7 +279,6 @@ body {
 }
 
 .floors>div>h3 {
-    font-family: 'Manrope';
     font-size: 24px;
     color: #FFFFFF;
     font-weight: 600;
@@ -321,11 +294,11 @@ body {
     font-size: 18px;
     font-family: 'Manrope'; 
     font-weight: 800;
-    margin-bottom:30px ;
+    margin-bottom:30px;
+    line-height: 25px;
 }
 
 .floors>p {
-    font-family: 'Manrope';
     font-size: 20px;
     color: #fdfdfd;
     font-weight: 500;
@@ -340,7 +313,6 @@ body {
     position: relative;
 }
 
-
 .phone3 {
     position: absolute;
     right: 200px;
@@ -353,7 +325,6 @@ body {
     position: relative;
 }
 
-
 .phone2 {
     left: 5%;
     position: absolute;
@@ -363,10 +334,7 @@ body {
 
 .contanier-form {
     background-color: #554534;
-    padding-left: 200px;
-    padding-right: 300px;
-    padding-bottom: 80px;
-    padding-top: 50px;
+    padding:50px 300px 80px 200px;
 }
 
 .contanier-form div {
@@ -386,7 +354,6 @@ body {
 
 .form h2 {
     color: #EBE9DD;
-    font-family: 'Manrope'; 
     font-weight: 700;
     font-size: 24px;
     margin-bottom:30px ;
@@ -394,65 +361,59 @@ body {
 
 #name {
     background: transparent;
-  border: none;
-  border-bottom: solid 1px #A7A8A4;
-  width: 486px;
-  height: 55px;
-  color: #EBE9DD;
-  margin-bottom:30px ;
+    border: none;
+    border-bottom: solid 1px #A7A8A4;
+    width: 486px;
+    height: 55px;
+    color: #EBE9DD;
+    margin-bottom:30px ;
 }
 
 #tel {
     background: transparent;
-  border: none;
-  border-bottom: solid 1px #A7A8A4;
-  width: 486px;
-  height: 55px;
-  margin-bottom:30px ;
+    border: none;
+    border-bottom: solid 1px #A7A8A4;
+    width: 486px;
+    height: 55px;
+    margin-bottom:30px ;
 }
 
 .btn-form {
+    font-family: 'Manrope';
     background-color: #F5574E;
     width: 486px;
     height: 61px;
     border: none;
     color: white;
     font-size: 18px;
-    font-family: 'Manrope'; 
     font-weight: 800;
     margin-bottom:30px ;
 }
 
-
 .custom-checkbox {
-position: absolute;
-  z-index: -1;
-  opacity: 0;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
 }
 
 input::placeholder { 
     font-size: 18px;
     color: white; 
-    font-family: 'Manrope'; 
 }
 
 input {
     font-size: 18px;
     color: white; 
-    font-family: 'Manrope'; 
     outline:none;
 }
 
 .consultation {
     background-color: #EBE9DD;
     display: flex;
-    padding-left: 200px;
-    padding-right: 200px;
     justify-content: space-between;
     align-items: center;
     position: relative;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding:50px 200px 100px 200px;
 }
 
 .form1-abs {
@@ -460,11 +421,8 @@ input {
     bottom: 100px;
 }
 
-
-
 .thanks {
     background-color: #F3F3EE;
-    
 }
 
 .thanks h1 {
@@ -477,11 +435,6 @@ input {
 
 
 
-
-
-
-
-
 @media (max-width : 768px) { 
 
     main {
@@ -489,10 +442,8 @@ input {
     }
     
     .contanier-task {
-        padding-left: 30px;
-        padding-right: 30px;
+        padding: 0 30px;
     }
-
 
     .contanier-task-flex {
         display: block;
@@ -521,16 +472,14 @@ input {
     }
     
     .about-us {
-        padding-top: 100px;
-        padding-bottom: 50px;
         text-align: center;
         position: relative;
-        padding: 0 10px;
+        padding: 100px 10px 50px 10px;
     }
     
     .img-about-us {
-    width: 100%;
-    margin-top: 100px;
+        width: 100%;
+        margin-top: 100px;
     }
 
     .fon-abs {
@@ -543,9 +492,7 @@ input {
     
     .contanier-ui {
         text-align: center;
-        padding-bottom: 50px;
-        padding-right: 30px;
-        padding-left: 30px;
+        padding:0px 30px 50px 30px;
     }
     
     .contanier-ui>h1 {
@@ -562,14 +509,10 @@ input {
     .img-elements {
         width: 100%;
     }
-
     
     .contanier-location {
         background-size: auto;
-        padding-top: 100px;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-bottom: 50px;
+        padding:100px 30px 30px 50px;
     }
     
     .phone1 {
@@ -584,12 +527,9 @@ input {
         padding-bottom: 50px;
     }
 
-    
     .layouts {
-        padding-right: 30px;
-        padding-left: 30px;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding: 50px 30px 50px 30px;
+
     }
     
     .layouts > h2 {
@@ -626,15 +566,13 @@ input {
     }
     
     .btn {
-        background-color: #F5574E;
-        width: 150px;
-        height: auto;
+        width: 180px;
+        height: 40px;
         border: none;
         color: white;
         font-size: 13px;
         font-family: 'Manrope'; 
         font-weight: 800;
-        
     }
     
     .social {
@@ -651,10 +589,7 @@ input {
     
     .estate {
         position: relative;
-        padding-right: 30px;
-        padding-left: 30px;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding:50px 30px 50px 30px;
     }
     
     .estate > h2 {
@@ -689,7 +624,6 @@ input {
         width: 100%;
         margin-top: 30px;
         box-sizing: border-box;
-        
     }
     
     .pros div img {
@@ -702,13 +636,11 @@ input {
         font-size: 16px;
         font-weight: 600;
         margin: 0;
-    
     }
 
     .floors>p {
         font-size: 16px;
     }
-
 
     .photos {
         display: block;
@@ -723,17 +655,15 @@ input {
     }
 
     .img-photos {
-    width: 100%;
+        width: 100%;
     }
-
 
     .contanier-info {
         background-image: url("../img/fon3.png");
         background-size: auto;
         background-repeat: no-repeat;
         text-align: center;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding:0 30px;
     }
     
     .phone3 {
@@ -757,13 +687,11 @@ input {
         width: 90%;
     }
 
-
     .phone2 {
-        left: 65;
+        left: 65px;
         position: relative;
         top: 0px;
         width: 70%;
-        
     }
     
     .contanier-form {
@@ -801,28 +729,17 @@ input {
         width: 100%;
     }
     
-    
     .consultation {
         display: block;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding:0px 30px 100px 30px;
         position: relative;
-        padding-bottom: 100px;
     }
     
     .form1-abs {
         position: relative;
         bottom: 0px;
         width: 100%;
-    }
-    
-    .empty {
-        width: 0px;
-    }
-    
-    .thanks {
-        background-color: #F3F3EE;
-        
+        padding-top: 40px;
     }
     
     .img-form2 {
@@ -854,23 +771,13 @@ input {
 }
 
 
-
-
 @media (max-width : 1570px) and (min-width: 768px) {
     main {
         max-width: 1570px;
     }
     
     .contanier-task {
-        padding-left: 130px;
-        padding-right: 130px;
-        padding-top: 50px;
-    }
-
-
-    .contanier-task-flex {
-        display: flex;
-        justify-items: center;
+        padding:50px 130px 0px 130px;
     }
     
     .contanier-task-flex >div>h1 {
@@ -878,14 +785,11 @@ input {
         margin: 0;
         margin-top: 30px;
         text-align: left;
-        
     }
     
     .contanier-task-flex >div>p {
         font-size: 20px;
-        width: auto;
-        line-height: 28px;
-        
+        line-height: 38px;
     }
     
     .contanier-task-flex >div>img {
@@ -895,84 +799,52 @@ input {
     }
     
     .about-us {
-        padding-top: 50px;
-        padding-bottom: 50px;
-        text-align: center;
-        position: relative;
-        padding-left: 130px;
-        padding-right: 130px;
+        padding:50px 130px 50px 130px;
     }
     
     .img-about-us {
-    width: 100%;
-    margin-top: 160px;
-    position: relative;
+        margin-top: 160px;
+        position: relative;
     }
 
-
     .fon-abs {
-        z-index: -1;
-        position: absolute;
         top: -80px;
-        left: 0px;
-        width: 100%;
     }
     
     .contanier-ui {
-        text-align: center;
-        padding-bottom: 50px;
-        padding-left: 130px;
-        padding-right: 130px;
+        padding:0px 130px 50px 130px;
     }
     
     .contanier-ui>h1 {
         font-size: 74px;
-        margin: 0;
         margin-bottom: 0px;
     }
     
     .colors {
         margin: 20px 0;
-        width: 100%;
     }
-    
-    .img-elements {
-        width: 100%;
-    }
-
     
     .contanier-location {
         background-size: auto;
-        padding-top: 100px;
-        padding-left: 130px;
-        padding-right: 130px;
-        padding-bottom: 50px;
+        padding:100px 130px 50px 130px;
     }
     
     .phone1 {
-        position: absolute;
         top: 550px;
         left: 30px;
         width: 22%;
     }
 
     .img-map {
-        width: 100%;
         padding-bottom: 50px;
     }
 
-    
     .layouts {
-        padding-left: 130px;
-        padding-right: 130px;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding:50px 130px 50px 130px;
     }
     
     .layouts > h2 {
         font-size: 10px;
-        letter-spacing: 10px;
-        text-align: center;
     }
     
     .layouts > h1 {
@@ -983,9 +855,7 @@ input {
     }
     
     .layouts > div {
-        display:  flex;
         text-align: center;
-        
     }
     
     .img-criteria {
@@ -1010,8 +880,6 @@ input {
         width: 240px;
         height: 40px;
         font-size: 16px;
-
-        
     }
     
     .social {
@@ -1020,52 +888,28 @@ input {
     }
     
     .share-h3 {
-        font-size: 16px;
-        text-align: left;
+        font-size: 20px;
         padding-top: 30px;
-        font-weight: 600;
     }
     
     .estate {
-        position: relative;
-        padding-left: 130px;
-        padding-right: 130px;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding:50px 130px 50px 130px;
     }
     
     .estate > h2 {
         font-weight: 700;
-        font-size: 20px;
         letter-spacing: 10px;
-        text-align: center;
     }
     
     .estate > h1 {
-        font-weight: 400;
         font-size: 74px;
         line-height: 70px;
-        padding-bottom: 50px;
-        margin: 0;
-        padding: 0;
-    }
-    
-    .h1-2 {
-        text-align: right;
-    }
-    
-    .pros {
-        display: flex;
-    
     }
     
     .pros div {
-        display: flex;
-        align-items: center;
         padding: 20px;
         width: 100%;
         margin-top: 30px;
-        
     }
     
     .pros div img {
@@ -1074,19 +918,7 @@ input {
         padding-right: 15px;
     }
     
-    .pros div h2 {
-        font-size: 20px;
-        font-weight: 600;
-        margin: 0;
-    
-    }
-    
     .photos {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-bottom: 30px;
-        padding-top: 40px;
         gap: 40px;
     }
     
@@ -1095,17 +927,12 @@ input {
     }
 
     .img-photos {
-    width: 70%;
+        width: 70%;
     }
 
-
     .contanier-info {
-        background-image: url("../img/fon3.png");
-        background-size: auto;
-        background-repeat: no-repeat;
         text-align: center;
-        padding-left: 100px;
-        padding-right: 100px;
+        padding: 0 100px;
     }
     
     .commerce {
@@ -1118,33 +945,18 @@ input {
 
     .phone2 {
         left: 80px;
-        position: absolute;
         top: 500px;
         width: 22%;
     }
     
     .contanier-form {
-        padding-left: 130px;
-        padding-right: 130px;
-    }
-    
-    .contanier-form div {
-        display: flex;
-        align-items: center;
+        padding: 0 130px;
     }
     
     .contanier-form div h1 {
         font-size: 74px;
-        font-family: 'BazaART';
         width: 100%;
         line-height: 70px;
-    }
-    
-    .form h2 {
-        font-family: 'Manrope'; 
-        font-weight: 700;
-        font-size: 24px;
-        margin-bottom:30px ;
     }
     
     #name {
@@ -1161,23 +973,13 @@ input {
     
     
     .consultation {
-        display: flex;
-        padding-left: 130px;
+        padding: 0px 130px 100px 130px;
         gap: 30px;
-        padding-right: 130px;
-        position: relative;
-        padding-bottom: 100px;
     }
     
     .form1-abs {
-        position: relative;
         bottom: 0px;
         width: 300px;
-    }
-    
-    .thanks {
-        background-color: #F3F3EE;
-        
     }
     
     .img-form2 {
@@ -1190,7 +992,6 @@ input {
 
     .thanks h1 {
         font-size: 54px;
-        font-weight: 400;
     }
 
     .phone3 {
@@ -1201,8 +1002,6 @@ input {
     .photos-abt {
         bottom: 450px;
     }
-
-
 }
 
 
@@ -1212,7 +1011,6 @@ input {
         max-width : 1750px;
         min-width: 1570px;
     }
-
 
     .img-rooms {
         width: 300px;
@@ -1251,15 +1049,12 @@ input {
         width: 300px;
     }
 
-
-.phone2 {
+    .phone2 {
         left: 80px;
         position: absolute;
         top: 1000px;
         width: 22%;
     }
-
-
 }
 
 @media (max-width : 1400px) and (min-width: 768px) {
@@ -1278,11 +1073,8 @@ input {
 
     .consultation {
         display: inline-block;
-        
-       
     }
 
-    
     .floors>div>h2 {
         font-size: 84px;
     }
