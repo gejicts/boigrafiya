@@ -129,10 +129,15 @@ new WOW().init();
                 <h1 class="wow fadeInLeft">НАЧНИ ПИСАТЬ БИОГРАФИЮ</h1>
                 <form class="form">
                     <h2>ОСТАВЬТЕ ЗАЯВКУ НА КВАРТИРУ МЕЧТЫ</h2>
-                    <input type="text" id="name" name="Ваше имя" placeholder="Ваше имя"><br>
-                    <input type="tel" id="tel" name="Телефон" placeholder="Телефон*"><br>
+                    <input type="text" id="name" name="name"  placeholder="Ваше имя" onfocus="if (this.placeholder == 'Ваше имя')
+                    {this.placeholder = '';}" 
+                    onblur="if (this.placeholder == '') 
+                    {this.placeholder = 'Ваше имя';}"><br>
+                    <input type="tel" id="tel" name="tel"  placeholder="Телефон*" onfocus="if (this.placeholder == 'Телефон*')
+                    {this.placeholder = '';}" 
+                    onblur="if (this.placeholder == '') 
+                    {this.placeholder = 'Телефон*';}"><br>
                     <button class="btn-form">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button><br>
-                    <input type="checkbox"  class="custom-checkbox" name="check" id="checkbox1"  value="html" checked>
                 </form>
             </div>
         </div>
