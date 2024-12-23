@@ -196,6 +196,7 @@ body {
     font-size: 18px;
     font-family: 'Manrope'; 
     font-weight: 800;
+    margin-top: 50px;
 }
 
 .social {
@@ -873,7 +874,7 @@ input {
     }
     
     .contanier-task-flex >div>h1 {
-        font-size: 64px;
+        font-size: 74px;
         margin: 0;
         margin-top: 30px;
         text-align: left;
@@ -881,7 +882,7 @@ input {
     }
     
     .contanier-task-flex >div>p {
-        font-size: 16px;
+        font-size: 20px;
         width: auto;
         line-height: 28px;
         
@@ -925,7 +926,7 @@ input {
     }
     
     .contanier-ui>h1 {
-        font-size: 64px;
+        font-size: 74px;
         margin: 0;
         margin-bottom: 0px;
     }
@@ -1006,14 +1007,10 @@ input {
     }
     
     .btn {
-        background-color: #F5574E;
         width: 240px;
-        height: auto;
-        border: none;
-        color: white;
-        font-size: 13px;
-        font-family: 'Manrope'; 
-        font-weight: 800;
+        height: 40px;
+        font-size: 16px;
+
         
     }
     
@@ -1039,14 +1036,14 @@ input {
     
     .estate > h2 {
         font-weight: 700;
-        font-size: 16px;
+        font-size: 20px;
         letter-spacing: 10px;
         text-align: center;
     }
     
     .estate > h1 {
         font-weight: 400;
-        font-size: 64px;
+        font-size: 74px;
         line-height: 70px;
         padding-bottom: 50px;
         margin: 0;
@@ -1065,20 +1062,20 @@ input {
     .pros div {
         display: flex;
         align-items: center;
-        padding: 10px;
+        padding: 20px;
         width: 100%;
         margin-top: 30px;
         
     }
     
     .pros div img {
-        width: 40px;
-        height: 40px;
-        padding-right: 10px;
+        width: 50px;
+        height: 50px;
+        padding-right: 15px;
     }
     
     .pros div h2 {
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 600;
         margin: 0;
     
@@ -1137,7 +1134,7 @@ input {
     }
     
     .contanier-form div h1 {
-        font-size: 64px;
+        font-size: 74px;
         font-family: 'BazaART';
         width: 100%;
         line-height: 70px;
@@ -1315,7 +1312,7 @@ input {
         margin-bottom: -350px;
     }
 
-	.contanier-info div {
+    .contanier-info div {
         display: flex;
         bottom: 100px;
         position: relative;
