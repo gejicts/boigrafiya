@@ -69,6 +69,33 @@ body {
     width: 100%;
 }
 
+.photos-abt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    bottom: 550px;
+    align-items: center;
+    z-index: 1;
+    margin-bottom: -450px;
+    
+    }
+    
+    .image-container {
+    flex: 1; 
+    padding: 10px;
+    
+    }
+    
+    .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    }
+
+
+
+
 .contanier-ui {
     padding-left: 200px;
     padding-right: 200px;
@@ -251,6 +278,7 @@ body {
 
 .photos {
     display: flex;
+    gap: 50px;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 30px;
@@ -261,22 +289,75 @@ body {
     max-width: 997px;
     }
 
-.img-flat {
-    max-width: 443px;
-    min-width: 150px;
+
+.floors>div {
+    height:180px;
+    display: flex;
+    align-items: center;
+}
+
+.floors>div>h2 {
+    font-family: 'BazaART';
+    font-size: 128px;
+    color: #F5574E;
+    font-weight: 400;
+}
+
+.floors>div>h3 {
+    font-family: 'Manrope';
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 0 40px;
+}
+
+.btn2 {
+    background-color: #F5574E;
+    width: 313px;
+    height: 61px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Manrope'; 
+    font-weight: 800;
+    margin-bottom:30px ;
+}
+
+.floors>p {
+    font-family: 'Manrope';
+    font-size: 20px;
+    color: #fdfdfd;
+    font-weight: 500;
+    line-height: 36px
 }
 
 .contanier-info {
     background-image: url("../img/fon3.png");
     background-size: auto;
 	background-repeat: no-repeat;
-    text-align: center;
+    text-align: right;
+    position: relative;
 }
+
+
+.phone3 {
+    position: absolute;
+    right: 200px;
+    bottom: 40px;
+}
+
+.contanier-info div {
+    display: flex;
+    bottom: 270px;
+    position: relative;
+}
+
 
 .phone2 {
     left: 5%;
     position: absolute;
     top: 790px;
+    z-index: 1;
 }
 
 .contanier-form {
@@ -359,48 +440,6 @@ input {
     color: white; 
     font-family: 'Manrope'; 
     outline:none;
-}
-
-.custom-checkbox+label::before {
-    content: '';
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    flex-shrink: 0;
-    flex-grow: 0;
-    border: 1px solid #adb5bd;
-    border-radius: 0.25em;
-    margin-right: 0.5em;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 50% 50%;
-  }
-
-  .custom-checkbox:checked+label::before {
-    
-    background-color: #adb5bd;
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
-  }
- 
-  .custom-checkbox:disabled+label::before {
-    background-color: #554534;
-  }
-
-.checkbox-text {
-    
-    font-family: 'Manrope'; 
-    font-weight: 400;
-    font-size: 16px;
-    color: #FDFDFD;
-    
-}
-
-.checkbox-red {
-    font-family: 'Manrope'; 
-    font-weight: 400;
-    font-size: 16px;
-    color: #F5574E;
-    text-decoration: underline;
 }
 
 .consultation {
@@ -535,8 +574,8 @@ input {
     .phone1 {
         position: relative;
         top: 0px;
-        left: 0px;
-        width: 100%;
+        left: 65px;
+        width: 70%;
     }
 
     .img-map {
@@ -648,6 +687,7 @@ input {
         padding: 10px;
         width: 100%;
         margin-top: 30px;
+        box-sizing: border-box;
         
     }
     
@@ -663,7 +703,12 @@ input {
         margin: 0;
     
     }
-    
+
+    .floors>p {
+        font-size: 16px;
+    }
+
+
     .photos {
         display: block;
         justify-content: space-between;
@@ -680,10 +725,6 @@ input {
     width: 100%;
     }
 
-    .img-flat {
-        width: 100%;
-        padding-top: 40px;
-    }
 
     .contanier-info {
         background-image: url("../img/fon3.png");
@@ -694,11 +735,34 @@ input {
         padding-right: 30px;
     }
     
+    .phone3 {
+        position: relative;
+        right: 0px;
+        bottom: 0px;
+        width: 50%;
+    }
+    
+    .contanier-info div {
+        display: block;
+        bottom: 0px;
+        position: relative;
+    }
+    
+    .discount {
+        width: 90%;
+    }
+
+    .commerce {
+        width: 90%;
+    }
+
+
     .phone2 {
-        left: 0;
+        left: 65;
         position: relative;
         top: 0px;
-        width: 100%;
+        width: 70%;
+        
     }
     
     .contanier-form {
@@ -774,6 +838,18 @@ input {
         font-size: 54px;
         font-weight: 400;
     }
+
+    .photos-abt {
+        flex-wrap: wrap;
+        position: relative;
+        bottom: 150px;
+        align-items: center;
+        margin-bottom: -100px;
+        }
+
+    .btn2 {
+        width: 250px;
+    }
 }
 
 
@@ -818,11 +894,10 @@ input {
     }
     
     .about-us {
-        padding-top: 100px;
+        padding-top: 50px;
         padding-bottom: 50px;
         text-align: center;
         position: relative;
-        padding: 0 10px;
         padding-left: 130px;
         padding-right: 130px;
     }
@@ -832,6 +907,7 @@ input {
     margin-top: 160px;
     position: relative;
     }
+
 
     .fon-abs {
         z-index: -1;
@@ -1025,20 +1101,24 @@ input {
     width: 70%;
     }
 
-    .img-flat {
-        width: 100%;
-        padding-top: 40px;
-    }
 
     .contanier-info {
         background-image: url("../img/fon3.png");
         background-size: auto;
         background-repeat: no-repeat;
         text-align: center;
-        padding-left: 130px;
-        padding-right: 130px;
+        padding-left: 100px;
+        padding-right: 100px;
     }
     
+    .commerce {
+        width: 100%;
+    }
+
+    .discount {
+        width: 95%;
+    }
+
     .phone2 {
         left: 80px;
         position: absolute;
@@ -1115,6 +1195,17 @@ input {
         font-size: 54px;
         font-weight: 400;
     }
+
+    .phone3 {
+        width: 20%;
+        right: 0;
+    }
+
+    .photos-abt {
+        bottom: 450px;
+    }
+
+
 }
 
 
@@ -1163,6 +1254,15 @@ input {
         width: 300px;
     }
 
+
+.phone2 {
+        left: 80px;
+        position: absolute;
+        top: 1000px;
+        width: 22%;
+    }
+
+
 }
 
 @media (max-width : 1400px) and (min-width: 768px) {
@@ -1185,6 +1285,35 @@ input {
        
     }
 
+    
+    .floors>div>h2 {
+        font-size: 84px;
+    }
+    
+    .floors>div>h3 {
+        font-size: 20px;
+        padding: 0 20px;
+    }
+    
+    .btn2 {
+        background-color: #F5574E;
+        width: 280px;
+        height: 61px;
+        font-size: 16px;
+        margin-bottom:20px ;
+    }
+    
+    .floors>p {
+        font-size: 16px;
+        color: #fdfdfd;
+        font-weight: 500;
+        line-height: 36px
+    }
+
+    .photos-abt {
+        bottom: 350px;
+        margin-bottom: -350px;
+    }
 
 }
 
